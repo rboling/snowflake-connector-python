@@ -5,6 +5,7 @@
 #ifndef PC_INTCONVERTER_HPP
 #define PC_INTCONVERTER_HPP
 
+#include <memory>
 #include "IColumnConverter.hpp"
 
 namespace sf

@@ -2,9 +2,9 @@
 // Copyright (c) 2012-2021 Snowflake Computing Inc. All right reserved.
 //
 
+#include <cstdio>
 #include "logging.hpp"
 #include "Python/Helpers.hpp"
-#include <cstdio>
 
 namespace sf
 {

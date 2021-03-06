@@ -2,6 +2,8 @@
 // Copyright (c) 2012-2021 Snowflake Computing Inc. All right reserved.
 //
 
+#include <string>
+#include <memory>
 #include "CArrowChunkIterator.hpp"
 #include "SnowflakeType.hpp"
 #include "IntConverter.hpp"
@@ -13,7 +15,6 @@
 #include "DateConverter.hpp"
 #include "TimeStampConverter.hpp"
 #include "TimeConverter.hpp"
-#include <string>
 
 #define SF_CHECK_PYTHON_ERR() \
   if (py::checkPyError())\

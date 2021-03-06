@@ -2,6 +2,7 @@
 // Copyright (c) 2012-2021 Snowflake Computing Inc. All right reserved.
 //
 
+#include <memory>
 #include "BooleanConverter.hpp"
 
 namespace sf

@@ -6,10 +6,12 @@
 #define PC_ARROWITERATOR_HPP
 
 #include <Python.h>
-#include <vector>
 #include <arrow/python/platform.h>
 #include <arrow/api.h>
 #include <arrow/python/pyarrow.h>
+#include <memory>
+#include <string>
+#include <vector>
 #include "logging.hpp"
 
 #define SF_CHECK_ARROW_RC(arrow_status, format_string, ...) \
