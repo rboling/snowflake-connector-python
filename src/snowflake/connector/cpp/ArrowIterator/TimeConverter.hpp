@@ -5,6 +5,7 @@
 #ifndef PC_TIMECONVERTER_HPP
 #define PC_TIMECONVERTER_HPP
 
+#include <memory>
 #include "IColumnConverter.hpp"
 #include "Python/Common.hpp"
 #include "Python/Helpers.hpp"

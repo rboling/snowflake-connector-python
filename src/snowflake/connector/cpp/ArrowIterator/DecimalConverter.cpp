@@ -4,6 +4,7 @@
 
 #include <Python.h>
 #include <string>
+#include <memory>
 #include "DecimalConverter.hpp"
 #include "Python/Helpers.hpp"
 
